@@ -2,7 +2,7 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://huggingface.co/datasets/owaiskha9654/PubMed_MultiLabel_Text_Classification_Dataset_MeSH/resolve/main/data/train-00000-of-00001.parquet
+  source_URL: https://huggingface.co/datasets/ccdv/arxiv-summarization/resolve/main/data/train-00000-of-00001.parquet
   local_data_file: artifacts/data_ingestion/data.parquet
   unzip_dir: artifacts/data_ingestion/
 
@@ -10,3 +10,4 @@ data_validation:
   root_dir: artifacts/data_validation
   status_file: artifacts/data_validation/status.txt
   all_required_files: ['train', 'test', 'validation']
+
