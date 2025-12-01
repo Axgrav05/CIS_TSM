@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from typing import List
 
 @dataclass
 class DataIngestionConfig:
@@ -11,4 +12,4 @@ class DataIngestionConfig:
 class DataValidationConfig:
     root_dir: str
     status_file: str 
-    all_required_files: str 
+    all_required_files: List[str] 
