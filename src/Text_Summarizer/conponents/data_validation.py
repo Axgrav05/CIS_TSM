@@ -1,4 +1,4 @@
-from Text_Summarizer.entity import DataValidationConfig, DataIngestionConfig
+from Text_Summarizer.entity import DataValidationConfig
 from Text_Summarizer.logging import logger
 import os
 from pathlib import Path
@@ -8,9 +8,9 @@ class DataValidation:
         self.config = config
         os.makedirs(self.config.root_dir, exist_ok=True)
         
-    def validate_all_files_exist(self, val=DataIngestionConfig) -> bool:
+    def validate_all_files_exist(self, unzip_dir) -> bool:
         validation = True
-        folder_path = Path(val.config.unzip_dir)
+        folder_path = Path(unzip_dir)
 
         for file in self.config.all_required_files:
             file_path = folder_path / file

@@ -9,12 +9,13 @@ class ConfigurationDirectory:
             self.config = yaml.safe_load(f)
 
     def get_data_ingestion_config(self) -> DataIngestionConfig:
-        config = self.config["data_ingestion"]
-        os.makedirs(config.root_dir, exist_ok=True)
-        return DataIngestionConfig(**config)
+        ingestion_config = self.config["data_ingestion"]
+        print(f"{type(ingestion_config)}")
+        os.makedirs(ingestion_config["root_dir"], exist_ok=True)
+        return DataIngestionConfig(**ingestion_config)
     
     def get_data_validation_config(self) -> DataValidationConfig:
-        config = self.config["data_validation"]
-        os.makedirs(config.root_dir, exist_ok=True)
-        return DataValidationConfig(**config)
+        validation_config = self.config["data_validation"]
+        os.makedirs(validation_config["root_dir"], exist_ok=True)
+        return DataValidationConfig(**validation_config)
 

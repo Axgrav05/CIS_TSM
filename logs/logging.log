@@ -1,7 +1,69 @@
-2025-11-02 16:59:43,718 - INFO - Logger is working
-2025-11-02 16:59:54,571 - INFO - Logger is working
-2025-11-02 17:00:02,088 - INFO - Logger is working
-[2025-11-02 17:02:23,986] Text_Summarizer - INFO - Logger is working
-[2025-11-02 17:03:42,803] textsummarizer - INFO - Logger is working
-[2025-11-02 17:10:36,648] textsummarizer - INFO - Working
-[2025-11-02 17:11:26,615]- INFO - Working
+[2025-12-03 18:32:22,889]- INFO - Start of pipeline
+[2025-12-03 18:32:22,889]- INFO - ----------- Stage 1: Data Ingestion Started -----------
+[2025-12-03 18:32:22,889]- INFO - Exception in Digestion pipeline: 'dict' object has no attribute 'root_dir'
+[2025-12-03 18:32:22,889]- INFO - -------- Stage 2: Data Validation Started --------
+[2025-12-03 18:32:22,896]- INFO - Exception in Validation: 'dict' object has no attribute 'root_dir'
+[2025-12-03 18:32:22,896]- INFO - End of pipeline
+[2025-12-03 18:32:22,896]- INFO - Working
+[2025-12-03 18:32:23,131]- INFO - Start of pipeline
+[2025-12-03 18:32:23,131]- INFO - ----------- Stage 1: Data Ingestion Started -----------
+[2025-12-03 18:32:23,136]- INFO - Exception in Digestion pipeline: 'dict' object has no attribute 'root_dir'
+[2025-12-03 18:32:23,136]- INFO - -------- Stage 2: Data Validation Started --------
+[2025-12-03 18:32:23,136]- INFO - Exception in Validation: 'dict' object has no attribute 'root_dir'
+[2025-12-03 18:32:23,136]- INFO - End of pipeline
+[2025-12-03 18:32:23,139]- INFO - Working
+[2025-12-03 18:41:39,336]- INFO - Start of pipeline
+[2025-12-03 18:41:39,336]- INFO - ----------- Stage 1: Data Ingestion Started -----------
+[2025-12-03 18:41:39,336]- INFO - Exception in Digestion pipeline: 'dict' object has no attribute 'root_dir'
+[2025-12-03 18:41:39,336]- INFO - ----------- Stage 2: Data Ingestion Started -----------
+[2025-12-03 18:41:39,339]- INFO - Exception in Validation: 'dict' object has no attribute 'root_dir'
+[2025-12-03 18:41:39,339]- INFO - End of pipeline
+[2025-12-03 18:42:04,899]- INFO - Start of pipeline
+[2025-12-03 18:42:04,899]- INFO - ----------- Stage 1: Data Ingestion Started -----------
+[2025-12-03 18:42:04,899]- INFO - Exception in Digestion pipeline: 'dict' object has no attribute 'root_dir'
+[2025-12-03 18:42:04,899]- INFO - ----------- Stage 2: Data Ingestion Started -----------
+[2025-12-03 18:42:04,899]- INFO - Exception in Validation: 'dict' object has no attribute 'root_dir'
+[2025-12-03 18:42:04,899]- INFO - End of pipeline
+[2025-12-03 18:43:09,635]- INFO - Start of pipeline
+[2025-12-03 18:43:09,635]- INFO - ----------- Stage 1: Data Ingestion Started -----------
+[2025-12-03 18:43:09,638]- INFO - Exception in Digestion pipeline: 'dict' object has no attribute 'config'
+[2025-12-03 18:43:09,638]- INFO - ----------- Stage 2: Data Ingestion Started -----------
+[2025-12-03 18:43:09,639]- INFO - Exception in Validation: 'dict' object has no attribute 'root_dir'
+[2025-12-03 18:43:09,639]- INFO - End of pipeline
+[2025-12-03 18:44:46,454]- INFO - Start of pipeline
+[2025-12-03 18:44:46,454]- INFO - ----------- Stage 1: Data Ingestion Started -----------
+[2025-12-03 18:44:46,454]- INFO - Exception in Digestion pipeline: 'dict' object has no attribute 'root_dir'
+[2025-12-03 18:44:46,454]- INFO - ----------- Stage 2: Data Ingestion Started -----------
+[2025-12-03 18:44:46,458]- INFO - Exception in Validation: 'dict' object has no attribute 'root_dir'
+[2025-12-03 18:44:46,458]- INFO - End of pipeline
+[2025-12-03 18:45:27,000]- INFO - Start of pipeline
+[2025-12-03 18:45:27,000]- INFO - ----------- Stage 1: Data Ingestion Started -----------
+[2025-12-03 18:45:27,011]- INFO - Error during download:  'DataIngestionConfig' object has no attribute 'source_url'
+[2025-12-03 18:45:27,011]- INFO - ----------- Stage 1: Data Ingestion Completed -----------
+[2025-12-03 18:45:27,011]- INFO - ----------- Stage 2: Data Ingestion Started -----------
+[2025-12-03 18:45:27,011]- INFO - Path doesn't exist: artifacts\data_ingestion\train
+[2025-12-03 18:45:27,011]- INFO - Path doesn't exist: artifacts\data_ingestion\test
+[2025-12-03 18:45:27,011]- INFO - Path doesn't exist: artifacts\data_ingestion\validation
+[2025-12-03 18:45:27,016]- INFO - ----------- Stage 2: Data Ingestion Started -----------
+[2025-12-03 18:45:27,016]- INFO - End of pipeline
+[2025-12-03 18:49:12,833]- INFO - Start of pipeline
+[2025-12-03 18:49:12,833]- INFO - ----------- Stage 1: Data Ingestion Started -----------
+[2025-12-03 18:49:12,833]- INFO - Error during download:  'DataIngestionConfig' object has no attribute 'source_url'
+[2025-12-03 18:49:12,835]- INFO - ----------- Stage 1: Data Ingestion Completed -----------
+[2025-12-03 18:49:12,835]- INFO - ----------- Stage 2: Data Ingestion Started -----------
+[2025-12-03 18:49:12,835]- INFO - Path doesn't exist: artifacts\data_ingestion\train
+[2025-12-03 18:49:12,835]- INFO - Path doesn't exist: artifacts\data_ingestion\test
+[2025-12-03 18:49:12,835]- INFO - Path doesn't exist: artifacts\data_ingestion\validation
+[2025-12-03 18:49:12,838]- INFO - ----------- Stage 2: Data Ingestion Started -----------
+[2025-12-03 18:49:12,838]- INFO - End of pipeline
+[2025-12-03 18:53:06,281]- INFO - Start of pipeline
+[2025-12-03 18:53:06,282]- INFO - ----------- Stage 1: Data Ingestion Started -----------
+[2025-12-03 18:53:06,283]- INFO - Started downloading URL https://huggingface.co/datasets/ccdv/arxiv-summarization/resolve/main/data/train-00000-of-00001.parquet
+[2025-12-03 18:53:06,564]- INFO - Error during download:  HTTP Error 404: Not Found
+[2025-12-03 18:53:06,564]- INFO - ----------- Stage 1: Data Ingestion Completed -----------
+[2025-12-03 18:53:06,564]- INFO - ----------- Stage 2: Data Ingestion Started -----------
+[2025-12-03 18:53:06,564]- INFO - Path doesn't exist: artifacts\data_ingestion\train
+[2025-12-03 18:53:06,564]- INFO - Path doesn't exist: artifacts\data_ingestion\test
+[2025-12-03 18:53:06,564]- INFO - Path doesn't exist: artifacts\data_ingestion\validation
+[2025-12-03 18:53:06,572]- INFO - ----------- Stage 2: Data Ingestion Started -----------
+[2025-12-03 18:53:06,572]- INFO - End of pipeline

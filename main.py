@@ -14,6 +14,17 @@
     #print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-from Text_Summarizer.logging import logger
 
-logger.info("Working")
+from Text_Summarizer.pipeline import DataValidationPipeline, DataIngestionPipeline
+from Text_Summarizer.logging import logger
+# Stage one
+logger.info("Start of pipeline")
+ingestion_pipeline = DataIngestionPipeline()
+unzip_dir = ingestion_pipeline.run()
+
+validation_pipeline = DataValidationPipeline()
+val = validation_pipeline.run(unzip_dir)
+logger.info("End of pipeline")
+
+if not val:
+    print("Pipeline failed")
